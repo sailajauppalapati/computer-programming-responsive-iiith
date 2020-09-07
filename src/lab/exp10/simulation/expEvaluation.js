@@ -486,6 +486,10 @@ window.view = {
 	},
 	enableElement: function (id) {
 		document.getElementById(id).disabled = false
+		document.getElementById('a').value = '0';
+		document.getElementById('b').value = '0';
+		document.getElementById('c').value = '0';
+		document.getElementById('d').value = '0';
 	},
 	changeClass: function (id, className) {
 		document.getElementById(id).className = className
